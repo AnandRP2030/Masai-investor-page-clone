@@ -1,0 +1,341 @@
+body{
+    height: 4000px;
+    padding-top: 150px;
+}
+
+
+/* navbar  */
+
+.nav-logo{
+    margin-left: 67px;
+    margin-right: 60px;
+}
+.nav-item{
+    margin-left: 30px;
+    
+}
+
+.nav-link{
+    color: #0A0103;
+    font-weight: 500;
+}
+
+.nav-link:hover{
+    color: red;
+}
+
+.scholar-programe{
+    height: 44px;
+    width: 185px;
+    background-color: #f2fdff;
+    border-color: #e2e8f0;
+    text-align: center;
+    padding: 10px;
+}
+
+.scholar-programe:hover{
+    background-color: #caeef5;
+}
+
+.scholar-programe>span{
+    color: #6e71cc;
+}
+
+.login-btn{
+    margin-left: 40px;
+}
+
+.login-btn:hover{
+    background-color: rgba(236, 0, 0, 0.547);
+}
+
+
+/* heading  */
+.heading{
+    text-align: center;
+}
+
+.heading> h1{
+    font-weight: 900;
+    font-size: 3rem;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+
+.heading > h4{
+    color:gray;
+
+}
+
+.subhead{
+    height: 330px;
+    width: 1280px;
+    margin: auto;
+    text-align: left;
+    position: relative;
+    top: 100px;
+}
+
+
+.sub-left{
+    width: 40%;
+    height: 100%;
+    position: relative;
+    border-right:1px solid rgb(138, 138, 138);
+    float: left;
+}
+
+.sub-left > h2{
+    position: relative;
+    top: 54%;
+    left: 37%;
+    transform: translate(-29%, -69%);
+}
+
+.sub-right{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+}
+
+.sub-right> p{
+    padding-top: 50px;
+}
+
+
+/* board members  */
+
+.board-members{
+    position: relative;
+    text-align: center;
+    top: 200px;
+    height: 67px;
+    width: 387px;
+    margin: auto;
+}
+
+.board-members>h1{
+    font-weight: 800;
+    text-align: center;
+}
+
+.board-members-co{
+    display: flex;
+    position: relative;
+    width:100%;
+    height: 300px;
+    top: 200px;
+    padding-top: 50px;
+}
+
+.board-members-co>div{
+    width: 400px;
+    height: 162px;
+    position: relative;
+    left:100px;
+    background-color: #caeef5;
+}
+
+
+/* startegic investor  */
+.stategic-inv-heading{
+    position: relative;
+    top: 180px;
+    text-align: center;
+    font-weight: 800;
+}
+
+
+/* investor container  */
+.investor-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+    width: 1248px;
+    margin: auto;
+    height: 2235px;
+    position: relative;
+    top: 200px;
+}
+
+.investor-card{
+    width: 296px;
+    height: 420px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.investor-card > h6{
+    color: gray;
+    margin: 0;
+}
+
+.investor-img{
+    height: 296px;
+    width: 294px;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+}
+
+.co-img{
+    height: 48px;
+    width: 140px;
+}
+
+/* warning msg  */
+.warning-msg{
+    position: relative;
+    top: 293px;
+    height: 64px;
+    width: 100%;
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 2rem;
+    background-color: rgba(254,242,242);
+    line-height: 25px;
+}
+
+.warning-msg>p{
+    position: relative;
+    top: 20px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.i-icon{
+    color: orange;
+     margin-right: 15px;
+     position: relative;
+     top: 24px;
+     font-size: 19px;
+}
+
+/* footer  */
+footer{
+    height: 409px;
+    width: 100%;
+    background-color: rgb(10,1,3);
+    position: relative;
+    top: 296px;
+    
+}
+
+.footer-head{
+    height:71px;
+    width: 1248px;
+    margin: auto;
+    position:relative;
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.social-media{
+    position: absolute;
+    right: 0;
+    color: rgb(215, 214, 213);   
+    cursor: pointer;
+}
+
+.masai-footer-logo{
+    width: 87px;
+    height: auto;
+    margin-top: -20px;
+}
+
+.social-media>span, .social-media-icon{
+    margin-right: 24px;
+}
+   
+.social-media-icon:hover{
+    color: white;
+    font-size: 1.1rem;
+}
+
+
+/* footer content */
+.footer-content{
+    height:288px;
+    width: 1248px;
+    margin: auto;
+    display: flex;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.footer-content>table{
+    width: 40%;
+    height: 200px;
+}
+
+.footer-table-content{
+    color: rgb(223, 213, 213);
+}
+
+.footer-table-content:hover{
+    color: red;
+}
+
+
+/* content right section  */
+.footer-discord{
+    position: absolute;
+    right: 223px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(223, 213, 213);
+    
+}
+
+.discord{
+    height: 56px;
+    width: 237px;
+    background-color: rgb(38, 36, 36);
+    position: absolute;
+    margin-top: 18px;
+    right: -35px;
+    border-radius: 10px;
+    color: rgb(98, 98, 242);
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.discord:hover{
+    background-color: rgb(31, 27, 27);
+}
+
+.footer-credit{
+    position: relative;
+    height: 50px;
+    width: 1248px;
+    margin: auto;
+    color: gray;
+    display: flex;
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.footer-credit-right{
+    position: absolute;
+    right: 0;
+}
+
+.footer-credit-right>a>span{
+    color: gray;
+    font-size: 14px;
+    text-decoration-color: black;
+}
+
+
+
+/****** RESOPONSIVE *********/
+
+@media screen and (max-width: 1012px) {
+    
+}
+
